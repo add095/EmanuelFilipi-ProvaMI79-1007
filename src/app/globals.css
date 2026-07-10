@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-weg-blue: #00579D;
+  --color-weg-dark: #003F7D;
+  --color-weg-light: #EAF4FF;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* 
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            weg: {
+              blue: '#00579D',
+              dark: '#003F7D',
+              light: '#EAF4FF'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+*/
