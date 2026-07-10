@@ -16,7 +16,7 @@ const button_comprar = {
 
 export default async function Detail({ params }) {
     const { id } = await params;
-    const url = `https://dynamic-events-api.onrender.com/api/eventos/${id}`
+    const url = `https://dynamic-events-api.onrender.com/api/eventos/${id}?categoria=Cursos`
     let CursoDetalhe = await getEvents(url);
     let cor = {
         styleII: "rounded-full px-3 py-2 hover:bg-slate-100",
