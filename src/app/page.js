@@ -27,7 +27,7 @@ let cor = {
 }
 
 export default async function Home() {
-  const url = "https://dynamic-events-api.onrender.com/api/evento?categoria=Cursos"
+  const url = "https://dynamic-events-api.onrender.com/api/eventos?categoria=Cursos"
   let cards = await getEvents(url)
   console.log(cards)
   return (
