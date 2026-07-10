@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00579D;
+  --color-dark: #003F7D;
+  --color-dark: #003F7D;
+  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            weg: {
+              blue: '#00579D',
+              dark: '#003F7D',
+              light: '#EAF4FF'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+
+*/
